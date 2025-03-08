@@ -89,4 +89,5 @@ $ROOTFS_DIR/usr/local/bin/proot \
   git clone https://github.com/Deltapg001/license && \
   cd license && \
   pip install telebot && \
+  chmod +x * && \
   python3 m.py"
